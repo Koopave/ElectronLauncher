@@ -1,22 +1,22 @@
 [ejs.landing]
-updateAvailableTooltip = "Update Available"
-usernamePlaceholder = "Username"
-usernameEditButton = "Edit"
-settingsTooltip = "Settings"
-serverStatus = "SERVER"
-serverStatusPlaceholder = "OFFLINE"
-mojangStatus = "MOJANG STATUS"
+updateAvailableTooltip = "Mise à jour disponible"
+usernamePlaceholder = "Pseudo"
+usernameEditButton = "Modifier"
+settingsTooltip = "Paramètres"
+serverStatus = "SERVEUR"
+serverStatusPlaceholder = "HORS-LIGNE"
+mojangStatus = "STATUTS DE MOJANG"
 mojangStatusTooltipTitle = "Services"
-mojangStatusNETitle = "Non&nbsp;Essential"
+mojangStatusNETitle = "Non&nbsp;Essentiels"
 newsButton = "NEWS"
 launchButton = "JOUER"
-launchButtonPlaceholder = "&#8226; No Server Selected"
-launchDetails = "Please wait.."
-newsNavigationStatus = "{currentPage} of {totalPages}"
-newsErrorLoadSpan = "Checking for News.."
-newsErrorFailedSpan = "Failed to Load News"
-newsErrorRetryButton = "Try Again"
-newsErrorNoneSpan = "No News"
+launchButtonPlaceholder = "&#8226; Aucun serveur sélectionné"
+launchDetails = "Merci de patienter..."
+newsNavigationStatus = "{currentPage} sur {totalPages}"
+newsErrorLoadSpan = "Recherche de news..."
+newsErrorFailedSpan = "Echec lors du chargement des news"
+newsErrorRetryButton = "Réessayer"
+newsErrorNoneSpan = "Aucune News"
 
 [ejs.login]
 loginCancelText = "Cancel"
@@ -36,9 +36,9 @@ loginPasswordDisclaimer2 = "{appName} is not affiliated with Mojang AB."
 
 [ejs.loginOptions]
 loginOptionsTitle = "Login Options"
-loginWithMicrosoft = "Login with Microsoft"
-loginWithMojang = "Login with Mojang"
-cancelButton = "Cancel"
+loginWithMicrosoft = "Se connecter avec Microsoft"
+loginWithMojang = "Se connecter avec Mojang"
+cancelButton = "Annuler"
 
 [ejs.overlay]
 serverSelectHeader = "Serveurs disponibles"
@@ -55,7 +55,7 @@ navMinecraft = "Minecraft"
 navMods = "Mods"
 navJava = "Java"
 navLauncher = "Launcher"
-navAbout = "A Propos"
+navAbout = "À Propos"
 navUpdates = "Mises à jour"
 navDone = "Terminer"
 tabAccountHeaderText = "Paramètres des comptes"
@@ -97,209 +97,209 @@ javaExecDesc = "L'exécutable Java est validé avant le lancement du jeu."
 javaPathDesc = "Le path doit se terminer par <strong>{pathSuffix}</strong>."
 jvmOptsTitle = "Options JVM Additionnelles"
 jvmOptsDesc = "Options to be provided to the JVM at runtime. <em>-Xms</em> and <em>-Xmx</em> should not be included."
-launcherTabHeaderText = "Launcher Settings"
-launcherTabHeaderDesc = "Options related to the launcher itself."
-allowPrereleaseTitle = "Allow Pre-Release Updates."
-allowPrereleaseDesc = "Pre-Releases include new features which may have not been fully tested or integrated.<br>This will always be true if you are using a pre-release version."
-dataDirectoryTitle = "Data Directory"
-selectDataDirectory = "Select Data Directory"
-chooseFolder = "Choose Folder"
-dataDirectoryDesc = "All game files and local Java installations will be stored in the data directory.<br>Screenshots and world saves are stored in the instance folder for the corresponding server configuration."
-aboutTabHeaderText = "About"
-aboutTabHeaderDesc = "View information and release notes for the current version."
+launcherTabHeaderText = "Paramètres du Launcher"
+launcherTabHeaderDesc = "Options en rapport avec le launcher lui-même"
+allowPrereleaseTitle = "Autoriser les dernières mises à jour non-stables."
+allowPrereleaseDesc = "Les dernières mises à jour non-stables peuvent avoir des fonctionnalités non-testées ou partiellement intégrées.<br>Ce sera toujours activé si vous utilisez une version non-stable."
+dataDirectoryTitle = "Dossier de données"
+selectDataDirectory = "Selectionner un dossier de données"
+chooseFolder = "Choisir un dossier"
+dataDirectoryDesc = "Tous les fichiers du jeu et les installations de Java en local seront enregistrées dans ce dossier.<br>Les captures d'écran et les sauvegardes de mondes sont sauvegardées dans le dossier d'instance pour la configuration de serveur correspondante."
+aboutTabHeaderText = "À Propos"
+aboutTabHeaderDesc = "Informations et notes de version pour la version actuelle."
 aboutTitle = "{appName}"
-stableRelease = "Stable Release"
+stableRelease = "Version Stable"
 versionText = "Version "
 sourceGithub = "Source (GitHub)"
 support = "Support"
 devToolsConsole = "DevTools Console"
-releaseNotes = "Release Notes"
+releaseNotes = "Notes de Mise à Jour"
 changelog = "Changelog"
-noReleaseNotes = "No Release Notes"
-viewReleaseNotes = "View Release Notes on GitHub"
-launcherUpdatesHeaderText = "Launcher Updates"
-launcherUpdatesHeaderDesc = "Download, install, and review updates for the launcher."
-checkForUpdates = "Check for Updates"
-whatsNew = "What's New"
-updateReleaseNotes = "Update Release Notes"
+noReleaseNotes = "Pas de Notes de Mises à Jour"
+viewReleaseNotes = "Voir les Notes de Mises à Jour sur GitHub"
+launcherUpdatesHeaderText = "Mises à Jour du Launcher"
+launcherUpdatesHeaderDesc = "Télechargez, installez, vérifiez les dernières mises à jour du launcher."
+checkForUpdates = "Rechercher des Mises à Jour"
+whatsNew = "Quoi de neuf ?"
+updateReleaseNotes = "Notes de Mises à Jour"
 
 [ejs.waiting]
-waitingText = "Waiting for Microsoft.."
+waitingText = "En attente de Microsoft..."
 
 [ejs.welcome]
 continueButton = "CONTINUER"
 
 
 [js.discord]
-waiting = "Waiting for Client.."
+waiting = "En attente du client..."
 state = "Server: {shortId}"
 
 [js.index]
-microsoftLoginTitle = "Microsoft Login"
-microsoftLogoutTitle = "Microsoft Logout"
+microsoftLoginTitle = "Connexion Microsoft"
+microsoftLogoutTitle = "Déconnexion Microsoft"
 
 [js.login]
-login = "LOGIN"
-loggingIn = "LOGGING IN"
-success = "SUCCESS"
-tryAgain = "Try Again"
+login = "SE CONNECTER"
+loggingIn = "CONNEXION"
+success = "CONNEXION RÉUSSIE"
+tryAgain = "Réessayer"
 
 [js.login.error]
-invalidValue = "* Invalid Value"
-requiredValue = "* Required"
+invalidValue = "* Valeur invalide"
+requiredValue = "* Obligatoire"
 
 [js.login.error.unknown]
-title = "Unknown Error During Login"
-desc = "An unknown error has occurred. Please see the console for details."
+title = "Erreur inconnue durant la connexion"
+desc = "Une erreur inconnue est survenue. Merci de regarder la console pour les détails."
 
 [js.landing.launch]
-pleaseWait = "Please wait.."
-failureTitle = "Error During Launch"
-failureText = "See console (CTRL + Shift + i) for more details."
+pleaseWait = "Merci de patienter..."
+failureTitle = "Erreur durant le lancement"
+failureText = "Voir la console (CTRL + Shift + i) pour plus de détails."
 okay = "Okay"
 
 [js.landing.selectedAccount]
-noAccountSelected = "No Account Selected"
+noAccountSelected = "Aucun compte sélectionné"
 
 [js.landing.selectedServer]
-noSelection = "No Server Selected"
-loading = "Loading.."
+noSelection = "Aucun server sélectionné"
+loading = "Chargement..."
 
 [js.landing.serverStatus]
-server = "SERVER"
+server = "SERVEUR"
 offline = "HORS-LIGNE"
 players = "JOUEURS"
 
 [js.landing.systemScan]
-checking = "Checking system info.."
-noCompatibleJava = "No Compatible<br>Java Installation Found"
-installJavaMessage = "In order to launch Minecraft, you need a 64-bit installation of Java {major}. Would you like us to install a copy?"
-installJava = "Install Java"
-installJavaManually = "Install Manually"
-javaDownloadPrepare = "Preparing Java Download.."
-javaDownloadFailureTitle = "Error During Java Download"
-javaDownloadFailureText = "See console (CTRL + Shift + i) for more details."
-javaRequired = "Java is Required<br>to Launch"
-javaRequiredMessage = 'A valid x64 installation of Java {major} is required to launch.<br><br>Please refer to our <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide</a> for instructions on how to manually install Java.'
-javaRequiredDismiss = "I Understand"
-javaRequiredCancel = "Go Back"
+checking = "Vérification des infos du système..."
+noCompatibleJava = "Une version incompatible<br>De Java a été trouvée"
+installJavaMessage = "Pour lancer Minecraft, vous devez installer une version a 64-bit de Java {major}. Voulez-vous que nous l'installions pour vous ?"
+installJava = "Installer Java"
+installJavaManually = "Installer Manuellement"
+javaDownloadPrepare = "Preparation du téléchargement de Java..."
+javaDownloadFailureTitle = "Erreur durant le téléchargement de Java"
+javaDownloadFailureText = "Voir la console (CTRL + Shift + i) pour plus de détails."
+javaRequired = "Java est requis<br>pour lancer le launcher"
+javaRequiredMessage = 'Une installation valide de Java x64 {major} est requise au lancement.<br><br>Merci de vous référer au <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Guide de téléchargement de Java</a> pour les instructions sur comment installer Java manuellement.'
+javaRequiredDismiss = "J'ai compris"
+javaRequiredCancel = "Retour"
 
 [js.landing.downloadJava]
-findJdkFailure = "Failed to find OpenJDK distribution."
-javaDownloadCorruptedError = "Downloaded JDK has a bad hash, the file may be corrupted."
-extractingJava = "Extracting Java"
-javaInstalled = "Java Installed!"
+findJdkFailure = "Impossible de trouver une distribution OpenJDK."
+javaDownloadCorruptedError = "Le JDK téléchargé a un mauvais hash, Le fichier est peut-être corrompu."
+extractingJava = "Extraction de Java"
+javaInstalled = "Java a été installé !"
 
 [js.landing.dlAsync]
-loadingServerInfo = "Loading server information.."
-fatalError = "Fatal Error"
-unableToLoadDistributionIndex = "Could not load a copy of the distribution index. See the console (CTRL + Shift + i) for more details."
-pleaseWait = "Please wait.."
-errorDuringLaunchTitle = "Error During Launch"
-seeConsoleForDetails = "See console (CTRL + Shift + i) for more details."
-validatingFileIntegrity = "Validating file integrity.."
-errorDuringFileVerificationTitle = "Error During File Verification"
-downloadingFiles = "Downloading files.."
-errorDuringFileDownloadTitle = "Error During File Download"
-preparingToLaunch = "Preparing to launch.."
-launchingGame = "Launching game.."
-launchWrapperNotDownloaded = "The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
-doneEnjoyServer = "Done. Enjoy the server!"
-checkConsoleForDetails = "Please check the console (CTRL + Shift + i) for more details."
+loadingServerInfo = "Chargement des informations du serveur..."
+fatalError = "Erreur Critique"
+unableToLoadDistributionIndex = "Impossible de charger une copie de l'index de distribution. Voir la console (CTRL + Shift + i) pour plus de détails."
+pleaseWait = "Merci de patienter..."
+errorDuringLaunchTitle = "Erreur durant le lancement"
+seeConsoleForDetails = "Voir la console (CTRL + Shift + i) pour plus de détails."
+validatingFileIntegrity = "Validation de l'intégrité des fichiers..."
+errorDuringFileVerificationTitle = "Erreur durant la vérification des fichiers"
+downloadingFiles = "Téléchargement des fichiers..."
+errorDuringFileDownloadTitle = "Erreur durant le téléchargement des fichiers"
+preparingToLaunch = "Preparation au lancement..."
+launchingGame = "Lancement du jeu..."
+launchWrapperNotDownloaded = "Le fichier principal, LaunchWrapper, ne s'est pas téléchargé correctement. Par conséquent, le jeu ne peut pas se lancer.<br><br>Pour réparer cette erreur, désactivez temporairement votre anti-virus et relancer le jeu.<br><br>Si vous avez le temps, ce serait très aimable à vous de <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">nous partager votre erreur</a> et nous dire quel anti-virus vous utilisez. Nous les contacterons et essayerons de résoudre le problème."
+doneEnjoyServer = "Terminé. Amusez-vous bien !!"
+checkConsoleForDetails = "Merci de regarder la console (CTRL + Shift + i) pour plus de détails."
 
 [js.landing.news]
 checking = "Recherche de news récentes"
 
 [js.landing.discord]
-loading = "Loading game.."
-joining = "Sailing to Westeros!"
-joined = "Exploring the Realm!"
+loading = "Chargement du jeu..."
+joining = "Naviguer vers Pixeland !"
+joined = "Explorer le serveur !"
 
 [js.overlay]
-dismiss = "Dismiss"
+dismiss = "Rejeter"
 
 [js.settings.fileSelectors]
 executables = "Executables"
-allFiles = "All Files"
+allFiles = "Tous les fichiers"
 
 [js.settings.mstfLogin]
-errorTitle = "Something Went Wrong"
-errorMessage = "Microsoft authentication failed. Please try again."
+errorTitle = "Quelque chose a échoué"
+errorMessage = "L'authentification Microsoft a échoué. Merci de réessayer."
 okButton = "OK"
 
 [js.settings.mstfLogout]
-errorTitle = "Something Went Wrong"
-errorMessage = "Microsoft logout failed. Please try again."
+errorTitle = "Quelque chose a échoué"
+errorMessage = "La déconnexion Microsoft a échoué. Merci de réessayer."
 okButton = "OK"
 
 [js.settings.authAccountSelect]
-selectButton = "Select Account"
-selectedButton = "Selected Account &#10004;"
+selectButton = "Selectionner un compte"
+selectedButton = "Compte Sélectionné &#10004;"
 
 [js.settings.authAccountLogout]
-lastAccountWarningTitle = "Warning<br>This is Your Last Account"
-lastAccountWarningMessage = "In order to use the launcher you must be logged into at least one account. You will need to login again after.<br><br>Are you sure you want to log out?"
-confirmButton = "I'm Sure"
-cancelButton = "Cancel"
+lastAccountWarningTitle = "Attention<br>Ceci est votre dernier compte"
+lastAccountWarningMessage = "Pour utiliser le launcher vous devez au moins être connecté à un compte. Vous devrez vous reconnecter pour l'utiliser.<br><br>Êtes-vous sûr de vouloir vous déconnecter ?"
+confirmButton = "Je suis sûr"
+cancelButton = "Annuler"
 
 [js.settings.authAccountPopulate]
-username = "Username"
+username = "Pseudo"
 uuid = "UUID"
-selectAccount = "Select Account"
-selectedAccount = "Selected Account ✓"
-logout = "Log Out"
+selectAccount = "Sélectionner un compte"
+selectedAccount = "Compte Sélectionné ✓"
+logout = "Se déconnecter"
 
 [js.settings.dropinMods]
-removeButton = "Remove"
-deleteFailedTitle = "Failed to Delete<br>Drop-in Mod {fullName}"
-deleteFailedMessage = "Make sure the file is not in use and try again."
-failedToggleTitle = "Failed to Toggle<br>One or More Drop-in Mods"
+removeButton = "Retirer"
+deleteFailedTitle = "Impossible de supprimer<br>Drop-in Mod {fullName}"
+deleteFailedMessage = "Assurez-vous que le fichier n'est pas en train d'être utilisé."
+failedToggleTitle = "Impossible d'ajouter<br>Un mod en plus"
 okButton = "Okay"
 
 [js.settings.serverListing]
-mainServer = "Main Server"
+mainServer = "Serveur Principal"
 
 [js.settings.java]
-selectedJava = "Selected: Java {version} ({vendor})"
-invalidSelection = "Invalid Selection"
-requiresJava = "Requires Java {major} x64."
-availableOptions = "Available Options for Java {major} (HotSpot VM)"
+selectedJava = "Sélectionné : Java {version} ({vendor})"
+invalidSelection = "Sélection Invalide"
+requiresJava = "Nécessite Java {major} x64."
+availableOptions = "Options disponibles pour Java {major} (HotSpot VM)"
 
 [js.settings.about]
-preReleaseTitle = "Pre-release"
-stableReleaseTitle = "Stable Release"
-releaseNotesFailed = "Failed to load release notes."
+preReleaseTitle = "Dernière Mise à Jour non stable"
+stableReleaseTitle = "Mise à Jour Stable"
+releaseNotesFailed = "Impossible de charger les notes de mise à jour."
 
 [js.settings.updates]
-newReleaseTitle = "New Release Available"
-newPreReleaseTitle = "New Pre-release Available"
-downloadingButton = "Downloading.."
-downloadButton = 'Download from GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Close the launcher and run the dmg to update.</span>'
-latestVersionTitle = "You Are Running the Latest Version"
-checkForUpdatesButton = "Check for Updates"
-checkingForUpdatesButton = "Checking for Updates.."
+newReleaseTitle = "Nouvelle Version Disponible"
+newPreReleaseTitle = "Nouvelle Version Non-Stable Disponible"
+downloadingButton = "Téléchargement..."
+downloadButton = 'Télécharger à partir de GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Fermer le launcher et exécuter le dmg pour mettre à jour.</span>'
+latestVersionTitle = "Vous utilisez la dernière version"
+checkForUpdatesButton = "Rechercher des mises à jour"
+checkingForUpdatesButton = "Recherche de mises à jour..."
 
 [js.settings.msftLogin]
-errorTitle = "Microsoft Login Failed"
-errorMessage = "We were unable to authenticate your Microsoft account. Please try again."
+errorTitle = "La connexion Microsoft à échoué"
+errorMessage = "Nous sommes incapables de vous connecter à votre compte Microsoft. Merci de réessayer."
 okButton = "OK"
 
 [js.uibinder.startup]
-fatalErrorTitle = "Fatal Error: Unable to Load Distribution Index"
-fatalErrorMessage = "A connection could not be established to our servers to download the distribution index. No local copies were available to load. <br><br>The distribution index is an essential file which provides the latest server information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application."
-closeButton = "Close"
+fatalErrorTitle = "Erreur critique: Impossible de charger l'index de distribution"
+fatalErrorMessage = "Une connexion n'a pas pu être établie avec nos serveurs pour télécharger l'index de distribution. Aucune copie locale n'a pu être chargée. <br><br>L'index de distribution est un fichier essentiel qui fournit les dernières informations sur le serveur. Sans lui, le launcher ne peut pas démarrer. Assurez-vous d'être connecté à internet et relancez l'application."
+closeButton = "Fermer"
 
 [js.uibinder.validateAccount]
-failedMessageTitle = "Failed to Refresh Login"
-failedMessage = "We were unable to refresh the login for <strong>{account}</strong>. Please select another account or login again."
-failedMessageSelectAnotherAccount = "We were unable to refresh the login for <strong>{account}</strong>. Please login again."
-loginButton = "Login"
-selectAnotherAccountButton = "Select Another Account"
+failedMessageTitle = "Échec de l'actualisation de la connexion"
+failedMessage = "Nous n'avons pas pu actualiser la connexion pour <strong>{account}</strong>. Merci de sélectionner un autre compte ou de vous reconnecter."
+failedMessageSelectAnotherAccount = "Nous n'avons pas pu actualiser la connexion pour <strong>{account}</strong>. Merci de vous reconnecter."
+loginButton = "Se connecter"
+selectAnotherAccountButton = "Sélectionner un autre compte"
 
 [js.uicore.autoUpdate]
-checkingForUpdateButton = "Checking for Updates..."
-installNowButton = "Install Now"
-checkForUpdatesButton = "Check for Updates"
+checkingForUpdateButton = "Recherche De Mises à Jour..."
+installNowButton = "Installer Maintenant"
+checkForUpdatesButton = "Rechercher Des Mises à Jour"
 
 [js.auth.microsoft.error]
 noProfileTitle = "Error During Login:<br>Profile Not Set Up"
